@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from pymongo import MongoClient
 
-client=MongoClient("mongodb+srv://fiverrautomation:he3eyetR@cluster0.pshiyd4.mongodb.net/?retryWrites=true&w=majority")
+client=MongoClient("here the mongodb cluster link")
 db = client['ECHECS-ENSATÉ']
 collection = db['Players-rating']
 
